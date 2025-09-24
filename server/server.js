@@ -42,6 +42,7 @@ app.use('/api/sessions', sessionRoutes);
 // --- Start the Server ---
 
 // Make the server listen for incoming requests on the specified port
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
+// app.listen(PORT, () => {
+//   console.log(`Server is running on port ${PORT}`);
+// });
+module.exports = app;
