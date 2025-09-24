@@ -7,12 +7,7 @@
     },
     {
       "src": "client/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "installCommand": "npm install",
-        "buildCommand": "npm run build",
-        "outputDirectory": "build"
-      }
+      "use": "@vercel/static-build"
     }
   ],
   "rewrites": [
