@@ -1,0 +1,7 @@
+# IDE and OS files
+.idea/
+.vscode/
+*.suo
+*.user
+*.sln
+*.DS_Store
